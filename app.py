@@ -17,7 +17,7 @@ from forms import TicketForm
 
 app = Flask(__name__)
 app.config["TRAP_BAD_REQUEST_KEY_ERRORS"] = True
-app.config['SECRET_KEY'] = "Hw2229@#4wq$#"
+app.config['SECRET_KEY'] = "#########"
 
 
 def BlockedAddress(f):
