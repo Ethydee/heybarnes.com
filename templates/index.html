@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% if ron %}
+        <h1 style="text-align: center">You found the EASTER ASS</h1>
+    {% else %}
+        <h1 style="text-align: center;">Hello, {{ user.username }}!</h1>
+        <ul style="text-align: center;">
+            {% for name in grades %}
+            <p>{{ name }} {{ grades.get(name)[0] }}% {{ grades.get(name)[1] }}</p>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}

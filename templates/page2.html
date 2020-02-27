@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ron Website</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script src="{{ url_for('static', filename='js/script2.js') }}"></script>
+    <h1>Grade Archive</h1>
+    <img src="https://lh3.googleusercontent.com/-fwH403bsODU/XbupTuDYPxI/AAAAAAAAD4I/Mi8g_7alE0EzFm65y8eIWDERIVKKhAMOwCK8BGAsYHg/s0/2019-10-31.jpg" class="dog" alt="funny dog"><br>
+    <h3>^Funny Cat^</h3>
+    <h1 style="color: red" id="err"></h1>
+    <form id="frm1">
+        Name:<br> <input type="text" name="fname" value=""><br>
+        Percent:<br> <input type="text" name="lname" value=""><br><br>
+    </form>
+    <a href="CSPproject.html">Back to Home</a><br>
+    <button onclick="updateTable()">Add to Table</button>
+    <h6 class="smol">This table will save on reload.</h6>
+    <table id="t1">
+        <tr>
+            <th>Name</th>
+            <th>Percent</th>
+            <th>Letter</th>
+        </tr>
+        <tr>
+            <td>Ron</td>
+            <td>-20%</td>
+            <td>F--</td>
+        </tr>
+    </table>
+
+    <script src="{{ url_for('static', filename='js/InitCookies.js') }}"></script>
+</body>

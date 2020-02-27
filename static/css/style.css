@@ -1,0 +1,47 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: darkseagreen
+}
+
+#demo {
+    font-family: "Comic Sans MS", sans-serif;
+    color: chocolate
+}
+
+#ron {
+    width: 10%;
+    height: 10%
+}
+
+li {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 20px
+}
+
+#t1, #t1 th, #t1 td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 4px;
+}
+
+#t1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+}
+
+th {
+  background-color: grey;
+  color: white;
+}
+
+.dog {
+    width: 10%;
+    height: 30%;
+}
+
+.smol {
+    padding: 0;
+}

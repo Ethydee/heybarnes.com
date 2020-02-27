@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", serif;
+    color: #000000;
+    height: 100%;
+}
+
+img.image {
+    height: 20%;
+    width: 20%;
+}
+
+h2 {
+  color: blue;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 300%;
+}
+
+#centerimg {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 500px;
+   height: 500px;
+   margin-top: -250px; /* Half the height */
+   margin-left: -250px; /* Half the width */
+}

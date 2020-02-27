@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <style>
+    body, html {
+        height: 100%;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url({{ url_for('static', filename='images/500.gif') }});
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    </style>
+
+    <div class="bg">
+        ASS
+    </div>
+{% endblock %}

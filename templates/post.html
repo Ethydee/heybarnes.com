@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h3> Post </h3>
+    <form action="" method="post">
+        <p>
+            Username<br>
+            {{ form.username(size=30) }}
+        </p>
+        <p>
+            Post Content<br>
+            {{ form.postbox(size=30) }}
+        </p>
+        <p>
+            Image URL (leave blank if none)<br>
+            {{ form.image(size=30) }}
+        </p>
+        <p>{{ form.submit }}</p>
+    </form>
+{% endblock %}

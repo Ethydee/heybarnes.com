@@ -1,0 +1,241 @@
+@import url('https://themes.googleusercontent.com/fonts/css?kit=wAPX1HepqA24RkYW1AuHYA');
+    ol {
+        margin: 0;
+        padding: 0
+    }
+
+    table td, table th {
+        padding: 0
+    }
+
+    .c1 {
+        color: #ff0000;
+        font-weight: 700;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 16pt;
+        font-family: "Courier New";
+        font-style: normal
+    }
+
+    .c7 {
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 26pt;
+        font-family: "Courier New";
+        font-style: normal
+    }
+
+    .c4 {
+        color: #000000;
+        font-weight: 700;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 12pt;
+        font-family: "Courier New";
+        font-style: normal
+    }
+
+    .c6 {
+        color: #004dbb;
+        font-weight: 700;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-size: 24pt;
+        font-family: "Courier New";
+        font-style: normal
+    }
+
+    .c2 {
+        color: #000000;
+        font-weight: 400;
+        text-decoration: none;
+        vertical-align: baseline;
+        font-family: "Courier New";
+        font-style: normal
+    }
+
+    .c16 {
+        padding-top: 0pt;
+        padding-bottom: 10pt;
+        line-height: 1.0;
+        text-align: center
+    }
+
+    .c3 {
+        padding-top: 0pt;
+        padding-bottom: 10pt;
+        line-height: 1.15;
+        text-align: center
+    }
+
+    .c8 {
+        font-size: 16pt;
+        color: #ffc000;
+        font-weight: 700
+    }
+
+    .c10 {
+        text-align: center;
+        background-color: #ffffff;
+        max-width: 432pt;
+        padding: 72pt 90pt 72pt 90pt
+    }
+
+    .c15 {
+        font-size: 16pt;
+        color: #00b050
+    }
+
+    .c14 {
+        font-family: "Calibri";
+        font-weight: 400
+    }
+
+    .c5 {
+        font-size: 22pt
+    }
+
+    .c9 {
+        height: 12pt
+    }
+
+    .c11 {
+        font-size: 8pt
+    }
+
+    .c0 {
+        font-size: 11pt
+    }
+
+    .c12 {
+        font-weight: 700
+    }
+
+    .c13 {
+        font-size: 24pt
+    }
+
+    .title {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 16pt;
+        padding-bottom: 3pt;
+        font-family: "Arial";
+        line-height: 1.0;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    .subtitle {
+        padding-top: 0pt;
+        color: #000000;
+        font-size: 12pt;
+        padding-bottom: 3pt;
+        font-family: "Arial";
+        line-height: 1.0;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    li {
+        color: #000000;
+        font-size: 12pt;
+        font-family: "Courier New"
+    }
+
+    p {
+        margin: 0;
+        color: #000000;
+        font-size: 12pt;
+        font-family: "Courier New"
+    }
+
+    h1 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 16pt;
+        padding-bottom: 3pt;
+        font-family: "Arial";
+        line-height: 1.0;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    h2 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 14pt;
+        padding-bottom: 3pt;
+        font-family: "Arial";
+        line-height: 1.0;
+        page-break-after: avoid;
+        font-style: italic;
+        orphans: 2;
+        widows: 2;
+        text-align: center;
+    }
+
+    h3 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 13pt;
+        padding-bottom: 3pt;
+        font-family: "Arial";
+        line-height: 1.0;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    h4 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 14pt;
+        padding-bottom: 3pt;
+        font-family: "Courier New";
+        line-height: 1.0;
+        page-break-after: avoid;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    h5 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 13pt;
+        padding-bottom: 3pt;
+        font-family: "Courier New";
+        line-height: 1.0;
+        font-style: italic;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }
+
+    h6 {
+        padding-top: 12pt;
+        color: #000000;
+        font-weight: 700;
+        font-size: 11pt;
+        padding-bottom: 3pt;
+        font-family: "Courier New";
+        line-height: 1.0;
+        orphans: 2;
+        widows: 2;
+        text-align: center
+    }

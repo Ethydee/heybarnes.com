@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <video id="videoElement" class="modal-video" data-object-fit="contain" autoplay="" poster="http://207.28.200.108/snapshots/CRTV11.jpg" preload="auto" src="blob:https://new.511ia.org/9f6f960c-a87d-4363-b342-2d56bc075869" style="display: block;">
+        <!---->
+                <source type="application/x-mpegURL" src="https://crvid2.iowadot.gov/live/crtv11lb.stream/playlist.m3u8">
+            <!---->
+                <source type="application/dash+xml" src="https://crvid2.iowadot.gov/live/crtv11lb.stream/manifest.mpd">
+            <!---->
+    </video>
+    <h2><a href="{{ url_for('post') }}">Post</a></h2>
+    <h3>{{ amount }} posts</h3>
+    {% for post in posts %}
+    <div>
+        <p>{{ post.author.username }}:
+            <b>{{ post.body }}</b> <i>{{ post.time }}</i><br>
+            {% if post.image != "\\x00" %}
+                <img class="image" src="{{ post.image }}" alt="BitchNigga">
+            {% endif %}
+        </p>
+    </div>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,21 @@
+<html lang="">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ticket.css') }}">
+</head>
+<body class="c10"><p class="c3"><span class="c0 c12">CUSTOMER COPY</span><span class="c0"><br></span><span
+        class="c12 c13">TOOTH FAIRY TICKET<br></span><span class="c11">CONGRATULATIONS ON LOSING YOUR TOOTH!</span><span
+        class="c2 c0"><br>...........................................</span></p>
+<p class="c3"><span class="c0">NAME:<br></span><span class="c6">{{ ticket.lastname }}, {{ ticket.firstname }}</span></p>
+<p class="c3"><span class="c0">DATE:<br></span><span class="c1">{{ date }}</span></p>
+<p class="c3"><span class="c7">TOOTH # {{ result.toothnum }}</span></p>
+<p class="c3"><span class="c0">AMOUNT LEFT:<br></span><span class="c12 c15">${{ ticket.money }} (USD)<br><br></span><span
+        class="c8">{{ ticket.coins }}</span><span class="c0"> COIN(S) &nbsp; </span><span
+        class="c8">{{ ticket.bills }}</span><span class="c2 c0">&nbsp;BILL(S)</span></p>
+<p class="c3"><span class="c4">FAIRY ID: {{ ticket.FID }}</span></p>
+<p class="c16"><span class="c5">THANK YOU!<br>MERRY CHRISTMAS</span><span class="c0 c14"><br><img src="/static/images/pict0.png"><br></span><span class="c5"><br>{{ ticket.namecode }}</span><span
+        class="c2 c0"><br></span></p>
+<p class="c16 c9"><span class="c2 c0"></span></p>
+<p class="c3 c9"><span class="c0 c2"></span></p>
+</body>
+</html>
