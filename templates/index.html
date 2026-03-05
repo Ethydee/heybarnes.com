@@ -1,14 +1,15 @@
-{% extends 'base.html' %}
-
-{% block content %}
-    {% if ron %}
-        <h1 style="text-align: center">You found the EASTER ASS</h1>
-    {% else %}
-        <h1 style="text-align: center;">Hello, {{ user.username }}!</h1>
-        <ul style="text-align: center;">
-            {% for name in grades %}
-            <p>{{ name }} {{ grades.get(name)[0] }}% {{ grades.get(name)[1] }}</p>
-            {% endfor %}
-        </ul>
-    {% endif %}
-{% endblock %}
+{% extends 'base.html' %} {% block content %} {% if ron %}
+<h1 style="text-align: center">You found the EASTER ASS</h1>
+<img
+  src="https://media.discordapp.net/attachments/388465578861658113/1470339297964982395/b9znpgztn3nz.png?ex=69a9eaee&is=69a8996e&hm=c9440fcec29cbbd284a92be108f9357b3b3fabdc3873218d31a999281c9bb5ac&=&format=webp&quality=lossless&width=3447&height=1503"
+  alt="MY WINTER ENGINE"
+  width="50%"
+/>
+{% else %}
+<h1 style="text-align: center">Hello, {{ user.username }}!</h1>
+<ul style="text-align: center">
+  {% for name in grades %}
+  <p>{{ name }} {{ grades.get(name)[0] }}% {{ grades.get(name)[1] }}</p>
+  {% endfor %}
+</ul>
+{% endif %} {% endblock %}
